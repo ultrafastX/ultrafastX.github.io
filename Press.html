@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<style fprolloverstyle>
+A:link {color: #000000}
+A:visited {color: #000000}
+A:active {color: #000000}
+A:hover {
+	color: #2F0000;
+	font-weight: normal;
+	font-size: medium;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: underline;
+} 
+a {text-decoration:none} 
+</style>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Press and blogs</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.twoColHybLtHdr #container { 
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColHybLtHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColHybLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Since we are working in relative units, it's best not to use padding on the sidebar. It will be added to the overall width for standards compliant browsers creating an unknown actual width. 
+2. Since em units are used for the sidebar value, be aware that its width will vary with different default text sizes.
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
+*/
+.twoColHybLtHdr #sidebar1 {
+	float: left; 
+	width: 12em; /* since this element is floated, a width must be given */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div  */
+}
+.twoColHybLtHdr #sidebar1 h3, .twoColHybLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
+3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
+*/
+.twoColHybLtHdr #mainContent {
+	margin: 0 20px 0 13em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+	font-family: Georgia, "Times New Roman", Times, serif;
+} 
+.twoColHybLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.twoColHybLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.style11 {font-size: small}
+.style24 {color: #800000; font-family: "Courier New", Courier, monospace; font-weight: bold;}
+.style25 {font-family: "Courier New", Courier, monospace}
+.style27 {font-size: small; font-weight: bold; }
+.style28 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.style30 {font-size: medium}
+.style31 {font-family: Geneva, Arial, Helvetica, sans-serif}
+.style34 {
+	font-size: large;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style36 {color: #0000A0}
+.style33 {	font-size: x-large;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.twoColHybLtHdr #container #mainContent p a {
+	color: #808080;
+}
+.twoColHybLtHdr #container #mainContent p a {
+	color: #4B4B4B;
+}
+.twoColHybLtHdr #container #mainContent p a {
+	color: #646464;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColHybLtHdr #sidebar1 { padding-top: 30px; }
+.twoColHybLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it may need to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body class="twoColHybLtHdr">
+
+<div id="container">
+  <div class="style30" id="header">
+    <h1><span class="style33">Press</span></h1>
+  <!-- end #header --></div>
+  <div class="style30" id="sidebar1">
+  
+    <span title="C.A. Stan et al., Lab Chip 2009">
+    <h3><img src="IceNucleationPress.jpg" width="150" height="105" /></h3>
+    </span>
+    
+    <br />
+    
+    <span title="R. Cademartiri, C.A. Stan et al., Soft Matter 2012">
+    <h3><img src="XrayExplosionsPress.jpg" width="150" height="118" />
+    </h3>
+    </span>
+    
+    <br />
+    
+ 
+    <p><a href="index.html" title="Back" class="style11">Back</a></p>
+  <!-- end #sidebar1 --></div>
+  <div id="mainContent">
+    <p class="style28"><strong>Microfluidic ice nucleation</strong></p>
+    <p><a href="Supercool microfluidics ChemTech 2009.pdf">Supercool microfluidics</a> (Chemical Technology)</p>
+    <p>&nbsp;</p>
+    <p class="style28"><strong>X-ray laser explosions</strong></p>
+    <p><a href="http://www.reuters.com/article/us-science-laser-water-idUSKCN0YH253">Brightest laser blows up water in cinematic and scientific first</a> (Reuters)</p>
+    <p><a href="http://www.cbsnews.com/news/see-the-worlds-brightest-x-ray-laser-blast-through-water-droplets/">See the world's brightest X-ray laser blast through water droplets</a> (CBS News)</p>
+    <p><a href="http://news.xinhuanet.com/english/2016-05/30/c_135397602.htm">Movies made to record droplets getting blown up by X-ray laser</a> (Xinhua)</p>
+    <p><a href="https://www.chemistryworld.com/news/explosive-water-display-caught-on-film/1010200.article">Explosive water display caught on film</a> (Chemistry World, UK)</p>
+    <p><a href="http://www.thejournal.ie/water-droplets-x-ray-laser-2786343-May2016/">Watch some water droplets be vaporised by a powerful X-ray laser</a> (The Journal, Ireland)    </p>
+    <p><a href="http://www.spektrum.de/news/die-aesthetik-verdampfender-wassertroepfchen/1411654">Röntgenlaser : Die Ästhetik verdampfender Wassertröpfchen</a> (Spektrum der Wissenschaft, Germany)</p>
+    <p><a href="https://www.tomshw.it/laser-a-raggi-x-piu-potente-al-mondo-spettacolo-all-opera-77270">Laser  a raggi X più potente al mondo, spettacolo all'opera</a> (Tom's Hardware, Italy)</p>
+    <p><a href="http://www.europapress.es/ciencia/laboratorio/noticia-video-asi-salta-gota-aires-laser-rayos-20160525135136.html">Así salta por los aires una gota con un láser de rayos X</a> (Europa Press, Spain)</p>
+    <p><a href="http://www.abcnyheter.no/nyheter/2016/05/30/195219475/se-rontgenlaser-fordampe-vann-i-sakte-film">Se røntgenlaser fordampe vann i sakte film</a> (ABC Nyheter, Norway)</p>
+    <p><a href="https://www.dr.dk/nyheder/viden/naturvidenskab/video-roentgenlaser-spraenger-vanddraaber-i-smaastykker">Røntgenlaser sprænger vanddråber i småstykker</a> (DR.dk, Denmark)</p>
+    <p><a href="http://tech.sme.sk/c/20171789/najsilnejsim-rontgenovym-laserom-nicia-kvapky-vody.html">Najsilnejší röntgenový laser ničí kvapky vody. Pozrite si to</a> (SME Tech, Slovakia)</p>
+    <p><a href="http://24.hu/tudomany/2016/05/25/a-vizre-iranyitott-lezer-jo-moka-es-meg-ertelme-is-van/">A vízre irányított lézer jó móka, és még értelme is van</a> (24.hu, Hungary)</p>
+    <p><a href="http://www.descopera.ro/stiinta/15371012-apa-poate-exploda-aceste-picaturi-de-apa-au-fost-distruse-de-un-laser-video">Apa  poate exploda? Aceste picături de apă au fost distruse de un laser</a> (Descoperă.ro, Romania)</p>
+    <p><a href="https://lenta.ru/news/2016/05/26/raser/">Испарение воды на самом мощном разере в мире впервые сняли на видео</a> (lenta.ru, Russia)</p>
+    <p><a href="https://www.fizikafa.com/haberler/en-guclu-lazer-kullanilmaya-baslandi/">En  Güçlü Lazer Kullanilmaya Başlandi</a> (fizikafa.com, Turkey)</p>
+    <p><a href="irannewspaper8283.pdf">First movies of droplets getting blown up by X-ray laser</a> (Iran Daily, Iran)</p>
+    <p><a href="http://www.themalaymailonline.com/tech-gadgets/article/worlds-brightest-laser-blows-up-water-bring-it-on-video">World’s brightest laser blows up water? Bring it on!</a> (The Malay Mail, Malaysia)</p>
+    <p> <a href="http://www.guokr.com/article/441496/">看超强X光如何&ldquo;引爆&rdquo;水流！</a>(guokr.com, China)</p>
+    <p><a href="http://thewire.in/74646/laser-xfel-ablation-shockwave/">How Scientists Used an Ultrafast Laser To Blow Up Water</a> (The Wire, India)</p>
+    <p><a href="https://www.enca.com/technology/brightest-x-ray-laser-blows-up-water-in-cinematic-first">Brightest X-ray laser blows up water in cinematic first </a> (eNCA, South Africa)</p>
+    <p><a href="https://www.newsghana.com.gh/x-ray-laser-consumes-droplets-of-movies/">X-ray laser consumes droplets of movies</a> (News Ghana)</p>
+    <p><a href="http://www.gizmodo.com.au/2016/05/watchthe-worlds-brightest-x-ray-laser-vaporise-water-droplets/">Watch the World's Brightest X-ray Laser Vaporise Water Droplets</a> (Gizmodo Australia)</p>
+    <p><a href="http://motherboard.vice.com/read/physicists-blow-some-shit-up-with-x-ray-laser-pulses">Physicists Make Water Explode with X-Ray Laser Pulses</a> (Motherboard)</p>
+    <p><a href="https://www6.slac.stanford.edu/news/2016-05-23-caught-camera-first-movies-droplets-getting-blown-x-ray-laser.aspx">Caught on Camera: First Movies of Droplets Getting Blown Up by X-ray Laser</a> (SLAC News)</p>
+    <p><a href="https://library.stanford.edu/blogs/digital-library-blog/2016/06/sdr-deposit-week-liquid-explosions">SDR Deposit of the Week: Liquid explosions</a> (Stanford Digital Repository)    </p>
+    <p>&nbsp;</p>
+    <p class="style28"><strong>Cubic ice</strong></p>
+    <p><a href="https://www.eurekalert.org/pub_releases/2017-07/osu-sm071017.php">Scientists make 'squarest' ice crystals ever</a> (EurekAlert!)</p>
+    <p><a href="http://www.sci-news.com/featurednews/78-percent-cubic-ice-05027.html">Physical Chemists Create 78% Cubic Ice Crystals</a> (sci-news.com)</p>
+    <p><a href="http://www.chemeurope.com/en/news/164066/you-won-t-find-ice-cubes-like-this-in-your-freezer.html">You won't find ice cubes like this in your freezer</a> (chemeurope.com)    </p>
+    <p><a href="https://www.chemistryworld.com/news/nanosized-ice-crystals-might-be-the-most-cubic-possible/3007702.article">Nanosized ice crystals might be the most cubic possible</a> (Chemistry World, UK)</p>
+    <p><a href="http://www.iflscience.com/physics/scientists-make-the-cubest-ice-crystal-yet/">Scientists Make The Cubest Ice Crystal Yet</a> (IFLScience, UK)</p>
+    <p><a href="https://www.theregister.co.uk/2017/07/10/world_record_perfect_ice_cubes_made_in_lab/">Just in time for summer boozing: Boffins smash world record for the most perfect ice cubes</a> (The Register, UK)</p>
+    <p><a href="http://www.apdnews.com/xin-hua/695728.html">Int'l team makes &quot;squarest&quot; ice crystals</a> (Asia Pacific Daily, China)</p>
+    <p><a href="https://lenta.ru/news/2017/07/11/ice_cube/">Раскрыта природа светящихся колец в атмосфере Земли</a> (lenta.ru, Russia)</p>
+    <p><a href="https://nplus1.ru/news/2017/07/11/cubic-ice">Химики создали рекордно кубический лед</a> (N+1, Russia)    </p>
+    <p><a href="https://www.sciencefriday.com/segments/creating-the-perfect-ice-cube/">Creating The Perfect Ice Cube</a> (Science Friday)</p>
+    <p><a href="http://www.spectroscopynow.com/xray/details/ezine/15d31f0a9ff/Tiniest-cubic-ice-crystals-X-rayed.html">Tiniest cubic ice crystals: X-rayed</a> (spectroscopyNOW.com)</p>
+    <p><span class="style28"><br />
+      </span>
+    <!-- end #mainContent -->    </p>
+  </div>
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+	<br class="clearfloat" />
+	<div id="footer">
+    <p><span class="style11"><span class="style24">contact:</span><br />
+    </span><span class="style27"><span class="style25">cstan@slac.stanford.edu</span></span></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

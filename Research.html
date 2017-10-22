@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<style fprolloverstyle>
+A:link {color: #000000}
+A:visited {color: #000000}
+A:active {color: #000000}
+A:hover {color: #000099} 
+a {text-decoration:none} 
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Claudiu's Research</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.twoColHybLtHdr #container { 
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColHybLtHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColHybLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Since we are working in relative units, it's best not to use padding on the sidebar. It will be added to the overall width for standards compliant browsers creating an unknown actual width. 
+2. Since em units are used for the sidebar value, be aware that its width will vary with different default text sizes.
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
+*/
+.twoColHybLtHdr #sidebar1 {
+	float: left; 
+	width: 14em; /* since this element is floated, a width must be given */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div  */
+}
+.twoColHybLtHdr #sidebar1 h3, .twoColHybLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
+3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
+*/
+.twoColHybLtHdr #mainContent { 
+	margin: 0 20px 0 15em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+} 
+.twoColHybLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.twoColHybLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.style11 {font-size: small}
+.style24 {color: #800000; font-family: "Courier New", Courier, monospace; font-weight: bold;}
+.style25 {font-family: "Courier New", Courier, monospace}
+.style27 {font-size: small; font-weight: bold; }
+.style28 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.style30 {font-size: medium}
+.style31 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.style34 {
+	font-size: large;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style37 {font-family: Georgia, "Times New Roman", Times, serif}
+.style33 {	font-size: x-large;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style39 {
+	color: #0000FF;
+	font-weight: bold;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColHybLtHdr #sidebar1 { padding-top: 30px; }
+.twoColHybLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it may need to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body class="twoColHybLtHdr">
+
+<div id="container">
+  <div class="style30" id="header">
+    <h1><span class="style33">Research</span></h1>
+  <!-- end #header --></div>
+  <div class="style30" id="sidebar1">
+<h3 align="center" class="style11"><img src="XFELjet-film-overlay.jpg" width="190" height="330" /></h3>
+    <p align="center" class="style11"><a href="http://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys3779.html">Liquid microjet dynamics during X-ray laser ablation    </a></p>
+    <h3 align="center" class="style11"><img src="Drop-spallation-animaton.gif" width="100" height="132" /></h3>
+    <p align="center" class="style11"><a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b00687">Shock waves and negative pressusres in liquid drops</a><span class="style11"><br />
+
+    </span></p>
+    <h3 align="center" class="style11"><img src="uDevice.jpg" width="170" height="133" /></h3>
+    <p align="center" class="style11"><a href="http://pubs.rsc.org/en/Content/ArticleLanding/2009/LC/b906198c">Microfluidic chip for supercooled liquids</a></p>
+    <h3 align="center" class="style11"><img src="Freezing.gif" width="117" height="87" /></h3>
+    <p align="center" class="style11"><a href="http://pubs.rsc.org/en/Content/ArticleLanding/2009/LC/b906198c">Ice freezing in supercooled water</a><br />
+    
+    <span title="A microfluidic liquid lens (image center) focusing a green light beam
+    (see S.K.Y Tang, C.A. Stan, G.M. Whitesisdes, Lab Chip 2008)">
+    </span></p><span title="A microfluidic liquid lens (image center) focusing a green light beam
+    (see S.K.Y Tang, C.A. Stan, G.M. Whitesisdes, Lab Chip 2008)"><h3 align="center"><img src="L2lens-2small.jpg" alt="" width="201" height="96" /></h3>
+    </span>
+    
+
+    
+      <p align="left"><span class="style11"><a href="http://pubs.rsc.org/en/Content/ArticleLanding/2008/LC/b717037h">Liquid-liquid microfluidic lens</a></span><a href="index.html" title="Back" class="style11"><br />
+    </a></p>
+    <p align="left"><a href="index.html" title="Back" class="style11">Back</a>
+      <!-- end #sidebar1 -->
+    </p>
+  </div>
+  <div id="mainContent">    
+    <p class="style31"><strong class="style34">Generation and investigation of ultrafast phenomena  with X-ray free-electron lasers</strong></p>
+    <p><span class="style37"><em><a href="https://en.wikipedia.org/wiki/Free-electron_laser#X-ray_laser_without_mirrors">X-ray free-electron lasers</a></em> (XFELs) deliver intense light pulses  with femtosecond temporal resolution and hundreds of nanometers spatial  resolution, thus making them an ideal tool to probe the molecular-scale  structure of matter on timescales that are characteristic to molecular  motion—or, in other words, to record &quot;movies&quot; of atoms and molecules  moving and reorganizing into different structures.</span></p>
+    <p><span class="style37">XFELs are a new science tool, and to realize their potential of seeing the matter &quot;in action&quot;, we need to discover how to conduct experiments on important problems and to interpret the data, while keeping an eye open to new phenomena that might occur. Equally important, XFELs can also help us understand phenomena that occur at the micro- and nanoscale, but </span><span class="style37">occur too rapidly to be investigated experimentally.</span></p>
+    <p><span class="style37">In this area of research, my  interests reside at the intersection  of XFELs with hydrodynamics, metastable systems, and phase transitions.  To conduct such experiments, we developed ultrafast imaging techniques that use both optical  and X-ray lasers. A major part of my recent work focused on  hydrodynamic phenomena induced by X-ray lasers in liquids. I am also working on  studies of rapid ice crystallization in water, of the chemical dynamics during  the photosynthetic cycle in nature, and of the dynamics of biomolecules under  the extreme conditions generated by XFEL irradiation.</span>    </p>
+    <p class="style31"><em><strong>Liquid microexplosions induced by XFELs</strong></em></p>
+    <p><span class="style37">X-ray pulses produced at XFEL facilities are so intense that a  single one is sufficient to destroy the sample under investigation. Often, XFEL  experiments must be performed serially on a large number of identical  samples, with a new sample for each X-ray pulse. The most frequently used technique for  enabling such serial experiments is embedding the samples in continuously flowing  liquid jets. The jets are also subject to X-ray damage, which may impede  efforts to run experiments at high repetition rates.</span></p>
+    <p class="style37">We used ultrafast optical imaging to  determine the dynamics of the explosions induced by XFEL pulses in liquid  microjets. Our initial goal was to determine if, and how, microexplosions induced by X-rays affect experiments. We found that the effects of explosions can still be seen  at time delays a billion times longer than the duration of the pulse, and  affect the jets over distances up to a hundred times larger than the diameter  of the X-ray beam. These microexplosions are multistep processes in which rapid  high-energy phenomena drive slower dynamics. For example, picosecond isochoric  heating by X-rays drives nanosecond shock waves, which in turn lead to  spectacular microsecond hydrodynamics.</p>
+    <p class="style31"><em><strong>Generation of deeply-metastable stretched water  with XFELs</strong></em></p>
+    <p><span class="style37">If a liquid with free interfaces is at a pressure below its vapor  pressure, it is thermodynamically unstable and will either evaporate or boil.  Nevertheless, it is possible to generate <em><a href="https://en.wikipedia.org/wiki/Metastability">metastable</a></em> liquids at pressures  below the vapor pressure, or even in stretched states (corresponding to a  negative pressure). Liquid water can be subjected to negative pressures for  extended periods of time, but will cavitate if stretched too far. Using a few special techniques it is possible produce metastable water at pressures down to about -200 to −300 atmospheres, but  these pressures are far from the pressure expected for homogenous cavitation  (around -1500 atmospheres).</span></p>
+    <p><span class="style37">Using the reflection of shock waves produced by XFEL pulses at the  surface of drops of water, we stretched water until it ruptured through  spallation, on a few-nanosecond time scale. We determined from the spallation  dynamics that pressures below -1000 atmospheres were briefly reached in the  liquid—deeper than in all previous experiments that used unconfined water. We  proposed a heterogeneous cavitation model that predicts that in order to break  the apparent &ldquo;negative pressure barrier&rdquo; of -300 atmospheres, water must be  stretched in a few nanoseconds or less. While such stretching rates may appear  impractically rapid, we showed that they can be acheived, and the extreme conditions to which we subject liquid water could help us understand its unusual thermdynamic properties.</span></p>
+    <p class="style31"><em><strong>Metastable and cubic ice</strong></em></p>
+    <p><span class="style37">Normal water ice, such as the ice we make in our freezers, is a thermodynamically stable solid with a crystal structure that has a hexagonal molecular symmetry (&quot;hexagonal ice&quot;), which manifests itself in the familiar hexagonal shape of showflakes. But with a slight change in how the molecules are arranged in ice, crystals with cubic crystal symmetry (&quot;cubic ice&quot;) may form. Cubic ice can form when supercooled water freezes at temperatures below 0 °C, but this ice is metastable and will transform into hexagonal ice. Observation of haloes around the sun suggest that crystals of pure cubic ice may form in the atmosphere, and if this is the case, its difference in vapor pressure relative to normal ice would affect how rain and snow form in the clouds. Scientists have attempted to make cubic ice in the lab by freezing supercooled water, but so far the ice produced is not purely cubic - which raises the questions of how cubic one can make the ice, and whether pure cubic ice can actually exist.</span></p>
+    <p><span class="style37">A good strategy for observing highy cubic ice is to supercool as much as possible liquid water before freezing, and then probe the ice that forms as soon as possible - to avoid its transformaton to normal hexagonal ice. Our collaborators - Barbara Wyslouzil's group from Ohio State - can produce nanosized water droplets in a supersonic nozzle, and then supercool these nanodrops to below -50 °C before freezing. We have used the X-ray laser at SLAC to determine, less than 100 microseconds after freezing, what type of ice forms during this extreme case of freezing. The analysis of the X-ray diffraction from nanodrops indicates that our ice was 78% cubic, more than other ices produced in the lab, and also more than theoretically predicted limits for how cubic ice can be.</span></p>
+    <p><span class="style37">The investigation of cubic ice is important not only for a better understanding of atmospheric processes, but also as an example of rapid nonequilibrum solidification leading to the formation of a metastable solid. When a liquid freezes rapidly, the molecules in the liquid do not have to arrange themselves a perfectly ordered crystal, therefore the formation of metastable or imperfect crystals is not suprising. However, little is known about how an individual molecule, or a group of a few molecules, actually build up the crystal. The combination of rapid freezing with ultrafast diffraction from X-ray lasers offers a promising route to understand or even &quot;see&quot; how rapid nonequilibrium solidification occurs at a molecular scale.</span></p>
+    <p><strong class="style34">The nucleation of ice in supercooled water</strong></p>
+    <p><span class="style37">Pure water in micron-sized drops can be supercooled to temperatures  close to -40 ºC, where it spontaneously freezes due to homogeneous nucleation.  Such supercooled drops have been observed in the atmosphere, but reliable production of supercooled water at such temperatures in the lab remains  challenging, and I worked towards better methods for producing, handling, and  investigating supercooled water and the nucleation of ice.</span></p>
+    <p><span class="style37">We developed a high-accuracy and high-speed&nbsp;instrument for  studying supercooled water by investigating how statistical ensembles (more  than 10 000 systems) of&nbsp;~100-micron diameter drops of water freeze by  homogenous nucleation of ice. With this instrument, we were able to measure the  rate of homogeneous nucleation of ice with low noise and excellent  reproducibility. This experimental platform is faster and more reliable than  any other previous instruments for the study of ice nucleation, and it also allows  to image at high resolution the freezing dynamics, such as the growth of ice  crystals inside drops of supercooled water.</span></p>
+    <p><span class="style37">In another ice nucleation project we investigated whether external  electric fields have an effect on the homogenous nucleation of ice in bulk  water. We applied larger electric fields than in any previous experiments, and  we have not observed any changes in the rates of nucleation.</span></p>
+    <p><span class="style37">The most promising application of this experimental platform,  however, is the investigation of heterogeneous nucleation of ice on foreign  particles present in water; the high data throughput of the ice nucleation  instrument allows us to measure quickly the probability of heterogeneous  nucleation over a wide range of temperatures—a feat that is difficult to  achieve using other instruments.</span>    </p>
+    <p><strong class="style34">The hydrodynamics of drop generation and  transport in microchannels</strong></p>
+    <p><span class="style37">I also&nbsp;studied the production and physical  properties of two-phase, liquid-liquid microfluidic systems such as (i) laminar  flow structures which&nbsp;we used as opto-fluidic components, and (ii) drops  of liquid inside another liquid phase which can be used as micro-enclosures for  chemical reactions. We showed that variation of fluid properties through  temperature control extends the degree of control and the range of operation of  microfluidic drop and bubble generators. In another series of projects, we  investigated the transverse hydrodynamic forces (lift forces) on drops and  bubbles and microchannels; we discovered that under microfluidic conditions  these forces are stronger than at larger scales, thus making them particularly  effective for applications that require the transverse positioning of drops and  bubbles.</span><span class="style28"><br />
+      </span>
+    <!-- end #mainContent -->    </p>
+  </div>
+<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+	<br class="clearfloat" />
+	<div id="footer">
+    <p><span class="style11"><span class="style24">contact:</span><br />
+    </span><span class="style27"><span class="style25">cstan@slac.stanford.edu</span></span></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
