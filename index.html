@@ -11,7 +11,7 @@ a {text-decoration:none}
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Claudiu's Home Page</title>
+<title>UMD Home Page</title>
 <style type="text/css"> 
 <!-- 
 body  {
@@ -21,13 +21,14 @@ body  {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
+	margin-left: 0em;
 }
-.twoColHybLtHdr #container { 
+.twoColHybLtHdr #container {
 	width: 80%;  /* this will create a container 80% of the browser width */
 	background: #FFFFFF;
 	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
 	border: 1px solid #000000;
-	text-align: left; /* this overrides the text-align: center on the body element. */
+	text-align: left;
 } 
 .twoColHybLtHdr #header { 
 	background: #DDDDDD; 
@@ -44,8 +45,8 @@ body  {
 3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
 */
 .twoColHybLtHdr #sidebar1 {
-	float: left; 
-	width: 12em; /* since this element is floated, a width must be given */
+	float: left;
+	width: 14em; /* since this element is floated, a width must be given */
 	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
 	padding: 15px 0; /* top and bottom padding create visual space within this div  */
 }
@@ -59,8 +60,8 @@ body  {
 2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
 3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
 */
-.twoColHybLtHdr #mainContent { 
-	margin: 0 20px 0 13em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+.twoColHybLtHdr #mainContent {
+	margin: 0 20px 0 15em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
 } 
 .twoColHybLtHdr #footer { 
 	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
@@ -88,7 +89,10 @@ body  {
 }
 .style11 {font-size: small}
 .style24 {color: #800000; font-family: "Courier New", Courier, monospace; font-weight: bold;}
-.style25 {font-family: "Courier New", Courier, monospace}
+.style25 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+}
 .style27 {font-size: small; font-weight: bold; }
 .style28 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
@@ -118,37 +122,38 @@ body  {
 
 <div id="container">
   <div class="style30" id="header">
-    <span class="style33">Claudiu A. Stan    </span>
+    <p class="style33">&nbsp;</p>
+    <p class="style33">Ultrafast Materials Dynamics at Rutgers-Newark</p>
     <!-- end #header -->
   </div>
   <div class="style30" id="sidebar1">
-    <h3><img src="Claudiu.jpg" width="170" height="150" /></h3>
+    <h3><img src="XrayJetBare.jpg" width="200" height="241" /></h3>
+    <h3 class="style32"><a href="News.html">News</a></h3>
+    <h3 class="style32"><a href="People.html">People</a></h3>
+    <h3 class="style32"><a href="Research.html" title="Research">Research</a><a href="Publications.html" title="Publications"></a></h3>
+    <h3 class="style32"><a href="Publications.html" title="Publications">Publications</a></h3>
+    <h3 class="style32"><a href="Press.html">Press</a></h3>
+    <p>&nbsp;</p>
   <!-- end #sidebar1 --></div>
-  <div id="mainContent">    
-    <p><br />
-      <span class="style32"><strong>Assistant Professor</strong></span><span class="style31"><strong><br />
-    Department of Physics<br />
-    Rutgers University-Newark</strong><br />
-    <i class="style11">(starting Jan 2018)</i>
-      </span>
+  <div id="mainContent">    <br />
+    <span class="style31"><br />
+    </span>
+    <p>Our group studies the dynamics of rapid transformations in materials, at the nanoscale and molecular scale. We are particularly interested in the initial stages of phase transitions in liquids (crystallization, vaporization) that are initiated by nucleation.</p>
+    <p>We prepare microscale and nanoscale liquid systems in nonequilibrium metastable states, which undergo ultrafast transformations occuring in millionths or billionths of a second. To study these tranformations, we use optical and X-ray techniques that have very high temporal resolution, down to the femtosecond regime.</p>
+    <p>For many of our studies, we conduct cutting-edge experiments at X-ray laser facilities in California, Germany and Japan. These X-ray lasers allow us to observe the dynamics of transformations at ultrafast time scales, and very small length scales comparable to the size of molecules; also, we use the X-ray lasers to generate nonequilibrium conditions and induce very rapidly phase changes such as cavitation. <br />
     </p>
-    <br />
-    <p><span class="style28">B.Sc. (Physics), 1999,  University of Bucharest<br />
-      Ph.D. (Physics), 2005, Massachussetts Institute of Technology</span><br />
-    </p>
-    <h2 class="style32">&nbsp;</h2>
-    <p class="style32">&nbsp;</p>
-    <h2 class="style32"><a href="Research.html" title="Research">Research</a><a href="Publications.html" title="Publications"></a></h2>
-    <h2 class="style32"><a href="Publications.html" title="Publications">Publications</a></h2>
-    <h2 class="style32"><a href="Press.html">Press</a>
-      <!-- end #mainContent -->
-    </h2>
+    <h2 class="style32"><!-- end #mainContent -->    </h2>
   </div>
 	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
 	<br class="clearfloat" />
-	<div id="footer">
-    <p><span class="style11"><span class="style24">contact:</span><br />
-    </span><span class="style27"><span class="style25">claudiu.stan@rutgers.edu</span></span></p>
+<div id="footer">
+<p><span class="style11"><span class="style24">contact:</span><br />
+Physics Department <br />
+Rutgers University Newark <br />
+Smith Hall, Room 369 <br />
+101 Warren Street <br />
+Newark, NJ 07102 </span><br />
+<span class="style25"><a href="https://ncas.rutgers.edu/about-us/faculty-staff/claudiu-stan">Directory listing</a></span></p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>
